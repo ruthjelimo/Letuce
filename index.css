@@ -1,0 +1,14 @@
+
+.header{
+    display: flex;
+    justify-content:space-between;
+}
+.li{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.section1{
+    display: flex;
+    justify-content: space-evenly;
+}
