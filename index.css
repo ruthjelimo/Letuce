@@ -11,6 +11,10 @@
 #offer,.button1{
     margin-left: 50px;
 }
+.button1{
+    padding: 20px;
+    
+}
 .section1{
     position: relative;
 }
