@@ -1,4 +1,5 @@
 .header{
+    background-image: "images/foods.png";
     display: flex;
     justify-content:space-between;
 }
@@ -14,19 +15,70 @@
     position: absolute;
 }
 .section1{
-    background-image: "images/foods.png";
+    background-image: url("images/foods.png");
+    background-size: 100%,100%;
+    color: white;
 }
 .span{
     color: yellow;
     padding: 20rem;
     font-size: 30px;
-
 }
-
 .section2 > p{
     font-size: 1px;
     font-family:italic;
+    background-color: whitesmoke;
 }
+.section2,.section3{
+    background-color: whitesmoke;
+}
+.section3{
+        display: flex;
+        flex-direction: row;
+        min-height: 20vh;
+        padding: 2rem;
+        margin-bottom: 7rem;
+        justify-content: space-evenly;
+        border: 3px; 
+       
+}
+.section4{
+      display:flex;
+      flex-direction: row;
+      min-height: 20vh;
+      justify-content: space-evenly;
+      padding: 2rem;
+      margin-bottom: 7rem;
+}
+.button{
+    color: white;
+    background-color: orange;
+    border-radius: 100%;
+}
+.button1{
+  color: orange;
+  border-radius: 2px;
+}
+#reviews{
+    background-color: black;
+    color: white;
+}
+.column4 > p{
+    justify-content: center;
+    padding: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.column5{
+    display: flex;  
+}
+.footer{
+    background-image: url("images/veges.png");
+    background-size: 100% 100%;
+}
+ 
+  
+
 
 
 
