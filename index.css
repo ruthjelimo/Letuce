@@ -8,7 +8,10 @@
    list-style: none;
     height: 40px;
     position: relative;
-    
+    margin-right: 50px;
+    margin-left:150px;
+    margin-top: 5px;
+    display: flex;
    
 }
 
@@ -36,9 +39,11 @@
 .span{
     color: yellow;
     padding: 20rem;
-    font-size: 30px;
+    font-size: 30px;   
 }
-.section2 > p{
+
+.
+2 > p{
     font-size: 1px;
     font-family:roboto;
     background-color: whitesmoke;
@@ -82,7 +87,12 @@
     text-shadow: 0.8px 0.8px 0.5px black;
 }
 .column5{
-    display: flex;  
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
+    border-radius: 3px;
+    
 }
 .footer{
     background-image: url("images/veges.png");
