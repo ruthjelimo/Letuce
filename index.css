@@ -36,18 +36,19 @@
     background-size: 100%,100%;
     color: white;
 }
+.section2{
+    display: flex;
+    flex-direction: column;
+}
 .span{
     color: yellow;
     padding: 20rem;
     font-size: 30px;   
 }
-
-.
-2 > p{
-    font-size: 1px;
-    font-family:roboto;
-    background-color: whitesmoke;
+.column3{
+    border-collapse: collapse;
 }
+
 .section2,.section3{
     background-color: whitesmoke;
 }
@@ -81,17 +82,21 @@
 #reviews{
     background-color: black;
     color: white;
+    height:400px;
+    width: 600px;
+    text-align: center;
 }
+
 .column4 > p{
     text-align: center;
     text-shadow: 0.8px 0.8px 0.5px black;
 }
 .column5{
     display: flex; 
-    flex-direction: column;
+   
     justify-content: space-around;
-    padding: 5px;
-    border-radius: 3px;
+
+    border-collapse: separate;
     
 }
 .footer{
