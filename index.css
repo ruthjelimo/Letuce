@@ -26,7 +26,7 @@
 }
 .section2 > p{
     font-size: 1px;
-    font-family:italic;
+    font-family:roboto;
     background-color: whitesmoke;
 }
 .section2,.section3{
@@ -64,10 +64,8 @@
     color: white;
 }
 .column4 > p{
-    justify-content: center;
-    padding: 10px;
-    margin-left: 70px;
-    margin-right: 70px;
+    text-align: center;
+    text-shadow: 0.8px 0.8px 0.5px black;
 }
 .column5{
     display: flex;  
