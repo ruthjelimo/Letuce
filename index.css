@@ -107,6 +107,10 @@
 .footer > p{
     color: white;
 }
+#copyrights{
+    margin-bottom: 0px;
+    background-color: url("black");
+}
  
   
 
