@@ -20,7 +20,8 @@
    list-style:none;
    display: flex;
     margin-left: 650px;
-   
+
+ 
     
 }
 .li{
@@ -129,6 +130,11 @@
       height: 600px;
      
 }
+.wrapper3 column9{
+    float: left;
+  
+    
+}
 .image3{
     padding: 1px;
     margin-top: 20px;
@@ -155,26 +161,11 @@
     text-align: center;
     text-shadow: 0.8px 0.8px 0.5px black;
 }
-.column5 > #chapati{
-  
-    display: flex; 
-    border:1px solid white;
-   
-    
-    border-collapse: collapse;  
-   
-}
-.column5 > #Beef stew{
-    display: flex;
-    flex: right;
-    border:1px solid white;
-    padding :20px 20px;
-    border-collapse: collapse;  
-   
-}
+
 .column5{
   display: flex;
-    padding: 25px 25px 25px 25px;
+  padding: 25px 25px 25px 25px;
+  margin-left: 200px;
     
 }
 
@@ -194,6 +185,7 @@
 #copyrights{
     margin-bottom: 0px;
     background-color: url("black");
+   
 }
  
   
