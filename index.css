@@ -67,6 +67,12 @@
     background-color: whitesmoke;
 
  }
+ 
+ .column4 h3{
+     color: orange;
+    padding:10px;
+    
+ }
  .column4{
   text-align: center;
  }
@@ -74,18 +80,34 @@
      color: yellow;
      font-size: 40px;
  }
+ .menus{
+     display: flex;
+     background-color: white;
+ }
 
  .column5{
         display: flex;
+        
+      
  }
  .beef{
      display: flex;
+     padding-right: 20px;
  }
+
  .wrapper3{
      display: flex;
+     margin-right: 15%;
+     padding:5rem;
+     background-color: whitesmoke;
+     
+     justify-content: space-between;
+    
  }
  .rice{
      display: flex;
+     padding-left: 50px;
+    
  }
 /* .
 pper{
@@ -117,7 +139,7 @@ pper{
 
 
 .span{
-    color: yellow;
+    color: orange;
     font-size: 30px;   
 }
 .span1{
@@ -126,6 +148,8 @@ pper{
 }
 .column3{
     border-collapse: collapse;
+    margin-left: -5px;
+    
 }
 
 .section2,.section3{
@@ -167,6 +191,7 @@ pper{
     height:400px;
     width: 600px;
     text-align: center;
+   
 }
 
 .column4 > p{
@@ -178,6 +203,10 @@ pper{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  background-color: whitesmoke;
+  margin-left:200px;
+  
+  
     
 }
 
